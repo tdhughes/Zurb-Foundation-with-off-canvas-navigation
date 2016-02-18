@@ -1,0 +1,36 @@
+/* css edits */
+
+/*.off-canvas-content, .off-canvas-content {
+    box-shadow: none;
+}*/
+
+.img-left {
+	float: left;
+	margin: 0 1rem 1rem 0;
+}
+.p-nowrap {
+    overflow: hidden;
+}
+
+/* navigation */
+.main-navigation {
+    margin: 20% 10% 20% 10%;
+    font-weight: 700;
+}
+
+.main-navigation ul {
+	border-top: 1px solid #cccccc;
+    list-style: none;
+}
+.main-navigation ul li a {
+	display:block;
+    border-bottom: 1px solid #cccccc;
+    outline: 0;
+	padding: 0.8em 0;
+}
+.main-navigation ul li a:hover {
+	text-decoration: underline;
+}
+.main-navigation ul li .current {
+	color: #005e20;
+}
